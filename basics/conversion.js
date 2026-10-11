@@ -16,3 +16,9 @@ let firstName = Number(name)
 
 console.table([marks,numPassword,login,Age,firstName])
 console.table([typeof(marks),typeof(numPassword),typeof(login),typeof(Age),typeof(firstName)])
+
+let id=Symbol("123")
+let other = Symbol("123")
+console.log(id)
+//console.log(other)
+console.log(typeof(id))
